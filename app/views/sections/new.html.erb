@@ -4,6 +4,7 @@
   <%= simple_form_for @section, url: sections_path do |f| %>
     <%= f.input :title %>
     <%= f.input :description %>
+    <%= f.text_field :tag_list, value: f.object.tag_list.to_s %>
     <br />
     <%= f.submit "Create", class: 'btn btn-primary' %>
     <br />

@@ -1,8 +1,19 @@
-<% @sections.each do |section| %>
-   <div class="card-container">
-     <div class="card">
-       <div class="front"><p><%= section.title %></p></div>
-       <div class="back">Back</div>
-     </div>
-   </div>
-<% end %>
+<div class="container">
+  <div class="row">
+   
+    <% @sections.each do |section| %>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
+          <div class="card-body sub-card-body">
+            <h5 class="card-title title"><%= section.title %></h5>
+            <p class="card-text sub-card-text"><%= section.description %></p>
+            <a href="#" class="btn btn-info">Go!</a>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    
+  </div>
+</div>
+      

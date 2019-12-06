@@ -13,7 +13,7 @@
     <div id="flex-content-container">
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand title" href="#">RsR</a>
+        <%= link_to 'RsR', root_path, class: 'navbar-brand title' %>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,15 +29,16 @@
               <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <%= link_to 'All Categories', sections_path, class: 'nav-link' %>
-                </a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Frontend</a>
                 <a class="dropdown-item" href="#">Backend</a>
-                <a class="dropdown-item" href="#">Tools</a>
+                <a class="dropdown-item" href="#">Design</a>
+                <a class="dropdown-item" href="#">Frontend</a>
                 <a class="dropdown-item" href="#">Inspiration</a>
-                <a class="dropdown-item" href="#">Education</a>
+                <a class="dropdown-item" href="#">References</a>
+                <a class="dropdown-item" href="#">Tools</a>
+                <a class="dropdown-item" href="#">Videos</a>
+                <%= link_to 'All Categories', sections_path, class: 'nav-link' %>
               </div>
             </li>
               <ul class="navbar-nav">

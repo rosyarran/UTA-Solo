@@ -75,3 +75,7 @@ source 'https://rails-assets.org' do
 end
 
 gem 'acts-as-taggable-on'
+
+gem 'simple_form'
+
+gem 'devise'

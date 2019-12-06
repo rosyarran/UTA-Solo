@@ -8,10 +8,11 @@
           <div class="card-body sub-card-body">
             <h5 class="card-title title"><%= section.title %></h5>
             <p class="card-text sub-card-text"><%= section.description %></p>
-            <a href="#" class="btn btn-info">Go!</a>
+            <%= link_to 'Go!', section_path(section), class: 'btn btn-info' %>
           </div>
         </div>
       </div>
+      <br class="clr" />
     <% end %>
     
   </div>

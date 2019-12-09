@@ -1,4 +1,92 @@
-<%= link_to 'See All Categories!', sections_path, class: 'btn btn-info' %>
-<br />
-<br />
-<h1 class="card">Featured site?</h1>
+<!-- JUMBOTRON -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 title">Rosy's Resources</h1>
+    <h4>Don't know where to start? Maybe we can help!</h4>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div id="categories">
+  <div class="container">
+    <div class="row justify-content-start">
+
+      <% @sections.each do |section| %>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
+            <div class="card-body sub-card-body">
+              <h5 class="card-title title"><%= section.title %></h5>
+              <p class="card-text sub-card-text">
+                <%= section.description %>
+                <%= section.tag_list %>
+              </p>
+              <%= link_to 'Go!', section_path(section), class: 'btn btn-info' %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<!-- SUGGESTED WEBSITES (3) -->
+  <h1>Our Suggestions for Beginners</h1>
+  
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-md-4 col-sm-6">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
+          <div class="card-body sub-card-body">
+            <h5 class="card-title title">Title</h5>
+            <p class="card-text sub-card-text">
+              Description
+              <br />
+              #tag #tag #tag
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
+          <div class="card-body sub-card-body">
+            <h5 class="card-title title">Title</h5>
+            <p class="card-text sub-card-text">
+              Description
+              <br />
+              #tag #tag #tag
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
+          <div class="card-body sub-card-body">
+            <h5 class="card-title title">Title</h5>
+            <p class="card-text sub-card-text">
+              Description
+              <br />
+              #tag #tag #tag
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- FEATURED WEBSITE -->
+<div id="feature">
+  <h1>Or check out this randomly selected site!</h1>
+  <h3 class="card">Random Site</h3>
+</div>
+
+<!-- ABOUT SECTION -->
+<div id="about">
+  <h1>About Us</h1>
+  <hr />
+  <p class="bio">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+</div>

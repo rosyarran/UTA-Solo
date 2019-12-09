@@ -1,23 +1,8 @@
-<div class="container">
-  <div class="row">
-   
-    <% @sections.each do |section| %>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top sub-card-img-top" src="" alt="Card image cap">
-          <div class="card-body sub-card-body">
-            <h5 class="card-title title"><%= section.title %></h5>
-            <p class="card-text sub-card-text">
-              <%= section.description %>
-              <%= section.tag_list %>
-            </p>
-            <%= link_to 'Go!', section_path(section), class: 'btn btn-info' %>
-          </div>
-        </div>
-      </div>
-      <br class="clr" />
-    <% end %>
-    
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 title">All Categories</h1>
   </div>
 </div>
+
+
       

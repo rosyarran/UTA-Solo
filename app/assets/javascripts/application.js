@@ -19,3 +19,5 @@
 //= require tether
 //= require bootstrap-sprockets
 //= require_tree .
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+import ThreeDRotation from '@material-ui/icons/ThreeDRotation';

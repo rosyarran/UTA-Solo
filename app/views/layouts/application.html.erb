@@ -7,12 +7,14 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
     <div id="flex-content-container">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <%= link_to 'RsR', root_path, class: 'navbar-brand title' %>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,23 +37,23 @@
                 <a class="dropdown-item" href="#">References</a>
                 <a class="dropdown-item" href="#">Tools</a>
                 <a class="dropdown-item" href="#">Videos</a>
-                <%= link_to 'All Categories', sections_path, class: 'nav-link' %>
+                <%= link_to 'All Categories', sections_path, {:style=>'color:#004d40;', :class => "nav-link"} %>
               </div>
             </li>
-              <ul class="navbar-nav">
-                <% if user_signed_in? %>
-                  <li class="nav-item">
-                    <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
-                  </li>
-                <% else %>
-                  <li class="nav-item">
-                    <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
-                  </li>
-                  <li class="nav-item">
-                    <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
-                  </li>
-                <% end %>
-
+            <ul class="navbar-nav">
+              <% if user_signed_in? %>
+                <li class="nav-item">
+                  <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+                </li>
+              <% else %>
+                <li class="nav-item">
+                  <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
+                </li>
+                <li class="nav-item">
+                  <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
+                </li>
+              <% end %>
+            </ul>
           </ul>
         </div>
       </nav>

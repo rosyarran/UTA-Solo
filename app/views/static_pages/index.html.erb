@@ -14,13 +14,9 @@
       <div class="cards-list">
         <% @sections.each do |section| %>
           <div class="card">
-            <div class="card_image"> <img src="https://images.unsplash.com/photo-1496096265110-f83ad7f96608?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" /> </div>
+            <div class="card_image"> <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" /> </div>
             <div class="card_title title-white">
               <h5 class="card-title title"><%= section.title %></h5>
-              <p class="card-text sub-card-text">
-                <%= section.description %>
-                <%= section.tag_list %>
-              </p>
             </div>
           </div>
         <% end %>

@@ -14,7 +14,8 @@
   width: 300px;
   height: 300px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), 
+              -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
   transition: 0.4s;
 }
@@ -38,8 +39,12 @@
   font-family: sans-serif;
   font-weight: bold;
   font-size: 30px;
-  margin-top: -80px;
+  margin-top: -175px;
   height: 40px;
+}
+
+.card .card_title .title {
+  font-size: 45px;
 }
 
 .card:hover {

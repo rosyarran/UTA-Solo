@@ -81,3 +81,5 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'font-awesome-sass', '~> 5.11.2'
+
+gem 'rails_12factor', group: :production

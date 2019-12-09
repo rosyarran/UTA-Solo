@@ -79,3 +79,5 @@ gem 'acts-as-taggable-on'
 gem 'simple_form'
 
 gem 'devise'
+
+gem 'font-awesome-sass', '~> 5.11.2'

@@ -1,5 +1,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Boogaloo|Dosis:200,400,700&display=swap');
+//@import "font-awesome-sprockets";
+@import "font-awesome";
 
 .title {
   font-family: 'Boogaloo', cursive;
@@ -49,6 +51,7 @@
   border: none;
   width: 18rem; 
   height: 18rem;
+  padding: 5%;
 }
 
 .card-body {

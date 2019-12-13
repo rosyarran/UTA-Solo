@@ -37,3 +37,13 @@ body {
 .social a:hover {
   text-decoration: none;
 }
+
+#hr-footer {
+  border: none;
+  height: 8px;
+  background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #8c8c8c 0) 0 5px;
+  background-color: #fff;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
+}

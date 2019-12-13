@@ -1,0 +1,429 @@
+{
+  "backend": [
+    {
+      "title": "Bootstrap Ruby Gem",
+      "description": "Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus).",
+      "siteURL": "https://github.com/twbs/bootstrap-rubygem#a-ruby-on-rails",
+      "subcategories": [
+        "ruby", "rails", "gem", "bootstrap", "framework", "css", "hanami"
+      ],
+      "logo": "https://avatars1.githubusercontent.com/u/2918581?s=200&v=4"
+    }, 
+    {
+      "title": "Will_Paginate Gem",
+      "description": "Pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, Merb, DataMapper and Sequel.",
+      "siteURL": "https://github.com/mislav/will_paginate",
+      "subcategories": [
+        "ruby", "rails", "gem", "pagination", "hanami", "sinatra", "merb", "datamapper", "sequel"
+      ],
+      "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    }, 
+    {
+      "title": "Devise Gem",
+      "description": "Flexible authentication solution for Rails.",
+      "siteURL": "https://github.com/plataformatec/devise",
+      "subcategories": [
+        "ruby", "rails", "gem", "authentication", "security", "user"
+      ],
+      "logo": "https://camo.githubusercontent.com/b1c21cc10f2f94857dea5135fe55f2e4d451e028/68747470733a2f2f7261772e6769746875622e636f6d2f706c617461666f726d617465632f6465766973652f6d61737465722f6465766973652e706e67"
+    }, 
+    {
+      "title": "Factory_Bot Gem",
+      "description": "A fixtures replacement with a straightforward definition syntax, support for multiple build strategies, and support for multiple factories for the same class, including factory inheritance.",
+      "siteURL": "https://github.com/thoughtbot/factory_bot",
+      "subcategories": [
+        "ruby", "rails", "gem", "testing"
+      ],
+      "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    }, 
+    {
+      "title": "Minitest",
+      "description": "A complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking.",
+      "siteURL": "https://github.com/seattlerb/minitest",
+      "subcategories": [
+        "ruby", "rails", "gem", "testing"
+      ],
+      "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    }, 
+    
+  ],
+  
+  
+  
+  
+  
+  "design": [
+    {
+      "title": "WebFX Color Picker",
+      "description": "Free HTML color selector by WebFX",
+      "siteURL": "https://www.webfx.com/web-design/color-picker/",
+      "subcategories": [
+        "color", "palette", "color-picker"
+      ],
+      "logo": "https://www.webfx.com/web-design/color-picker/wp-content/themes/colorpicker/assets/images/webfx-logo.png"
+    }, 
+    {
+      "title": "Font Squirrel",
+      "description": "Free fonts for commercial use",
+      "siteURL": "https://www.fontsquirrel.com/",
+      "subcategories": [
+        "fonts"
+      ],
+      "logo": "https://www.fontsquirrel.com/presentation/images/logo.png"
+    }, 
+    {
+      "title": "Google Fonts",
+      "description": "Intuitive and robust collection of open source designer web fonts.",
+      "siteURL": "https://fonts.google.com/",
+      "subcategories": [
+        "fonts"
+      ],
+      "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/opengraph_color_1200dp.png"
+    }, 
+    {
+      "title": "Coolors",
+      "description": "Super fast color schemes generator. Create, save and share perfect palettes in seconds.",
+      "siteURL": "https://coolors.co/",
+      "subcategories": [
+        "colors", "palette", "color-picker", "adobe", "photoshop", "illustrator", "social"
+      ],
+      "logo": "https://www.evernote.design/assets/images/coolors.jpg"
+    }, 
+    {
+      "title": "Balsamiq",
+      "description": "A small graphical tool to sketch out user interfaces, for websites applications.",
+      "siteURL": "https://balsamiq.com/",
+      "subcategories": [
+        "wireframes", "mockups"
+      ],
+      "logo": "https://media.balsamiq.com/files/company/balsamiq-logo-print.png"
+    }, 
+    {
+      "title": "Subtle Patterns",
+      "description": "Toptal's free, downloadable patterns.",
+      "siteURL": "https://www.toptal.com/designers/subtlepatterns/",
+      "subcategories": [
+        "images", "patterns", "social"
+      ],
+      "logo": "https://bs-uploads.toptal.io/blackfish-uploads/blog/author/profile/photo_file/photo/8967/TT_Logo-b1b50a14c1c3360f2649a738022d905b.png"
+    }, 
+    {
+      "title": "Pixlr Editor",
+      "description": "Online photo editor.",
+      "siteURL": "https://pixlr.com/",
+      "subcategories": [
+        "images", "editor"
+      ],
+      "logo": "https://blog.pixlr.com/wp-content/uploads/2018/11/1170x620-Default-Pixlr-Blog-Featured-Image.jpg"
+    }, 
+    {
+      "title": "FontPair",
+      "description": "Typography site dedicated to helping creators use beautiful typography for their creative projects.",
+      "siteURL": "https://fontpair.co/",
+      "subcategories": [
+        "fonts", "typography"
+      ],
+      "logo": "https://fontpair.co/img/fontpair-wordmark-logo-navy.svg"
+    }, 
+    {
+      "title": "Pexels",
+      "description": "Free stock photos & videos.",
+      "siteURL": "https://www.pexels.com/",
+      "subcategories": [
+        "images", "videos"
+      ],
+      "logo": "http://www.upl.co/uploads/pexelsiconnew-21550846053.png"
+    }, 
+    {
+      "title": "Clippy",
+      "description": "CSS clip-path maker.",
+      "siteURL": "https://bennettfeely.com/clippy/",
+      "subcategories": [
+        "images", "css", "editor"
+      ],
+      "logo": "codels.png"
+    }, 
+    {
+      "title": "Pixabay",
+      "description": "High-quality stock images and videos.",
+      "siteURL": "https://pixabay.com/";
+      "subcategories": [
+        "images", "videos"
+      ],
+      "logo": "https://pixabay.com/static/img/logo.svg"
+    }, 
+    
+  ],
+  
+  
+  
+  
+  "frontend": [
+    {
+      "title": "Codepen",
+      "description": "A social development environment for front-end designers and developers.",
+      "siteURL": "https://codepen.io/",
+      "subcategories": [
+        "social", "ide", "javascript", "css", "html"
+      ],
+      "logo": "https://screenshot.codepen.io/1470262.qKJQaQ.e8c0f377-c056-49b0-af93-2639a515a168.png"
+    },
+    {
+      "title": "Prism JS",
+      "description": "A lightweight, extensible syntax highlighter, built with modern web standards in mind.",
+      "siteURL": "https://prismjs.com/",
+      "subcategories": [
+        "javascript", "css", "html", "syntax highlighting" 
+      ],
+      "logo": "https://mycyberuniverse.com/images/thumbnail/prismjs.png"
+    },
+    {
+      "title": "CSSDeck",
+      "description": "A place to quickly create some experiments (or testcases) that involves HTML, CSS, JS code.",
+      "siteURL": "http://cssdeck.com/",
+      "subcategories": [
+        "javascript", "css", "html", "social", "ide" 
+      ],
+      "logo": "https://cdn.iconscout.com/icon/free/png-512/cssdeck-458261.png"
+    },
+    {
+      "title": "Font Awesome",
+      "description": "Vector icons and social logos for websites.",
+      "siteURL": "https://fontawesome.com/",
+      "subcategories": [
+        "icons", "logos", "images"
+      ],
+      "logo": "https://fontawesome.com/images/open-graph.png"
+    },
+    {
+      "title": "Iconfinder",
+      "description": "High-quality icons.",
+      "siteURL": "https://www.iconfinder.com/",
+      "subcategories": [
+        "icons", "logos", "images"
+      ],
+      "logo": "https://cdn.iconfinder.com/static/img/meta-generic.png?01f5058368"
+    },
+    
+  ],
+ 
+  
+  
+  
+  
+  "inspiration": [
+    {
+      "title": "Trilogy Student Projects",
+      "description": "Projects completed by alumni of Trilogy Education Services' University Partner programs.",
+      "siteURL": "https://projects.trilogyed.com/",
+      "subcategories": [
+        "projects", "education"
+      ],
+      "logo": "https://projects.trilogyed.com/images/TrilogyEd.svg"
+    }, 
+    {
+      "title": "Dribbble",
+      "description": "Resource for discovering and connecting with designers and creative talent around the globe.",
+      "siteURL": "https://dribbble.com/",
+      "subcategories": [
+        "social", "design", "employment"
+      ],
+      "logo": "https://cdn.dribbble.com/users/86774/screenshots/6635240/app-icon_2x.png"
+    }, 
+    {
+      "title": "Face Detect",
+      "description": "Face Detection AI",
+      "siteURL": "https://github.com/zachrattner/face-detect-demo",
+      "subcategories": [
+        "ai"
+      ],
+      "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    }, 
+    
+  ],
+  
+  
+  
+  
+  "references": [
+    {
+      "title": "Ruby docs",
+      "description": "Help and documentation for the Ruby programming language.",
+      "siteURL": "https://ruby-doc.org/",
+      "subcategories": [
+        "ruby", "language", "documentation", 
+      ],
+      "logo": "https://live.staticflickr.com/3392/3315357128_2fb5a78355.jpg"
+    }, 
+    {
+      /***** HOMEPAGE FEATURE *****/
+      "title": "Coding Environment Intallation Guide",
+      "description": "Setting up a system that can be used as a development environment with GitHub, Heroku, AWS, and Vagrant.",
+      "siteURL": "https://github.com/university-bootcamp/coding-environment",
+      "subcategories": [
+        "setup", "beginner", "cloud computing", "github", "heroku", "aws", "vagrant", "ruby", "rails", "homepage"
+      ],
+      "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    }, 
+    {
+      "title": "CSS-Tricks",
+      "description": "Building websites and all that entails.",
+      "siteURL": "https://css-tricks.com/",
+      "subcategories": [
+        "frontend", "articles", "snippets", "employment"
+      ],
+      "logo": "https://css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg"
+    }, 
+    {
+      "title": "Ruby in Rails",
+      "description": "Ruby, Rails, Ruby on Rails Tutorials.",
+      "siteURL": "https://rubyinrails.com/",
+      "subcategories": [
+        "ruby", "rails"
+      ],
+      "logo": "codels.png"
+    }, 
+    {
+      "title": "Rubymonk",
+      "description": "Free, interactive, on-browser, Ruby tutorials",
+      "siteURL": "https://rubymonk.com/",
+      "subcategories": [
+        "ruby"
+      ],
+      "logo": "https://www.rubymonk.com/assets/layouts/rubymonk-menu-logo-cde5322fe375e10c10e8e73d536562c8.png"
+    }, 
+    {
+      /***** HOMEPAGE FEATURE *****/
+      "title": "The Bastards Book of Ruby",
+      "description": "An introduction to programming and its practical uses for journalists, researchers, scientists, analysts, and anyone else whose job is to seek out, make sense from, and show the hard-to-find data.",
+      "siteURL": "http://ruby.bastardsbook.com/",
+      "subcategories": [
+        "ruby", "homepage"
+      ],
+      "logo": "http://ruby.bastardsbook.com/assets/images/lede/main.jpg"
+    }, 
+    {
+      /***** HOMEPAGE FEATURE *****/
+      "title": "Developer Roadmap",
+      "description": "A set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops.",
+      "siteURL": "https://github.com/kamranahmedse/developer-roadmap",
+      "subcategories": [
+        "frontend", "backend", "devops", "homepage"
+      ],
+      "logo": "https://camo.githubusercontent.com/181c921e730c51134f0409412886327ce6a3dfaf/68747470733a2f2f692e696d6775722e636f6d2f733563435639712e706e67"
+    }, 
+    {
+      "title": "Switching CarrierWave to Use S3 (AWS)",
+      "description": "How to configure your web application to connect to your Amazon Account to upload images.",
+      "siteURL": "http://blog.thefirehoseproject.com/posts/switching-carrierwave-to-use-s3-with-heroku-and-localhost/",
+      "subcategories": [
+        "aws", "images", "storage", "heroku"
+      ],
+      "logo": "codels.png"
+    }, 
+    
+  ],
+  
+  
+  
+  
+  "tools": [
+    {
+      "title": "Slack",
+      "description": "The collaboration hub that brings the right people, information, and tools together to get work done.",
+      "siteURL": "https://slack.com/",
+      "subcategories": [
+        "communication", "social"
+      ],
+      "logo": "https://a.slack-edge.com/80588/marketing/img/press/slack-logo-white.png"
+    },
+    {
+      "title": "Netlify",
+      "description": "A web developer platform that multiplies productivity.",
+      "siteURL": "https://www.netlify.com/",
+      "subcategories": [
+        "hosting"
+      ],
+      "logo": "https://cdn.netlify.com/15ecf59b59c9d04b88097c6b5d2c7e8a7d1302d0/1b6d6/img/press/logos/full-logo-light.svg"
+    },
+    {
+      "title": "Free Formatter",
+      "description": "Free online tools, including several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.",
+      "siteURL": "https://www.freeformatter.com/",
+      "subcategories": [
+        "json", "html", "xml", "sql", "batch", "formatter", "css", "javascript", "validator", "encoder/decoder", "minifier", "beautifier", "converter", "security", "cryptography"
+      ],
+      "logo": "codels.png"
+    },
+    {
+      "title": "Codenvy",
+      "description": "Developer workspaces.",
+      "siteURL": "https://codenvy.com/",
+      "subcategories": [
+        "ide", "social"
+      ],
+      "logo": "https://codenvy.com/images/logo-codenvy-black.png"
+    },
+    {
+      "title": "Heroku",
+      "description": "A container-based cloud Platform as a Service (PaaS) used to deploy, manage, and scale modern apps.",
+      "siteURL": "https://www.heroku.com/",
+      "subcategories": [
+        "hosting"
+      ],
+      "logo": "https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg"
+    },
+    {
+      "title": "Amazon Web Services",
+      "description": "A cloud platform offering over 175 fully featured services from data centers globally.",
+      "siteURL": "https://aws.amazon.com/",
+      "subcategories": [
+        "cloud computing", "database", "storage"
+      ],
+      "logo": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+    },
+    {
+      "title": "Virtual Box",
+      "description": "A general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.",
+      "siteURL": "https://www.virtualbox.org/",
+      "subcategories": [
+        "cloud computing"
+      ],
+      "logo": "https://www.virtualbox.org/graphics/vbox_logo2_gradient.png"
+    },
+    {
+      "title": "Vagrant",
+      "description": "Virtual machine that enables users to create and configure lightweight, reproducible, and portable development environments.",
+      "siteURL": "https://www.vagrantup.com/",
+      "subcategories": [
+        "cloud computing"
+      ],
+      "logo": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vagrant/vagrant.png"
+    },
+    {
+      "title": "repl.it",
+      "description": "An interactive programming environment.",
+      "siteURL": "https://repl.it/languages",
+      "subcategories": [
+        "ide", "social", "python", "ruby", "rails", "node.js", "c", "java", "c++", "html", "css", "javascript", "scheme", "go", "rust"
+      ],
+      "logo": "https://repl.it/public/images/logo-small.png"
+    },
+    
+  ],
+  
+  
+  
+  
+  "videos": [
+    {
+      "title": "Frontend vs Backend vs Fullstack Web Development - What should you learn?",
+      "description": "In Web Development, there's Frontend (JS, HTML, CSS), Backend (PHP, Node.js, DBs, ...) and Fullstack (Everything?) Development. What's the best one?",
+      "siteURL": "https://www.youtube.com/watch?v=pkdgVYehiTE",
+      "subcategories": [
+        "backend", "frontend", "fullstack"
+      ],
+      "logo": "https://lh3.googleusercontent.com/z6Sl4j9zQ88oUKNy0G3PAMiVwy8DzQLh_ygyvBXv0zVNUZ_wQPN_n7EAR2By3dhoUpX7kTpaHjRPni1MHwKpaBJbpNqdEsHZsH4q"
+    },  
+  ]
+}

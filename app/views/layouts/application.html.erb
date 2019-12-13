@@ -7,7 +7,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    
+    <script src="https://kit.fontawesome.com/6ceaf191b9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
@@ -30,13 +30,11 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Backend</a>
-                <a class="dropdown-item" href="#">Design</a>
-                <a class="dropdown-item" href="#">Frontend</a>
-                <a class="dropdown-item" href="#">Inspiration</a>
-                <a class="dropdown-item" href="#">References</a>
-                <a class="dropdown-item" href="#">Tools</a>
-                <a class="dropdown-item" href="#">Videos</a>
+               
+                <% @sections.each do |section| %>
+                  <%= link_to section.title, section_path(section), class: "dropdown-item" %>
+                <% end %>
+                
                 <%= link_to 'All Categories', sections_path, {:style=>'color:#004d40;', :class => "nav-link"} %>
               </div>
             </li>
@@ -76,29 +74,27 @@
             <b>Baby Codels
             <hr id="hr-footer" />
             </b>
-            
           </div>
+          <br /> 
           <div class="col-md-4 col-sm-2">
-            <b><u>Contact</u></b>
+            <b><u>Contact Us</u></b>
             <br />
             rosy.arreola@yahoo.com
             <br />
-            One Main St.
-            <br />
             El Paso TX, 79903
           </div>
+          <br />
           <div class="col-md-4 col-sm-2">
             <b><u>Social</u></b>
             <br />
-            <br />
             <%= link_to 'https://github.com/rosyarran' do %>
-              <span class="fa fa-github-square fa-2x social-button"></span>
+              <span class="fab fa-github-square fa-2x social-button"></span>
             <% end %>
-            <%= link_to 'https://twitter.com' do %>
-              <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <%= link_to 'https://twitter.com/WosyCheeks' do %>
+              <span class="fab fa-twitter-square fa-2x social-button"></span>
             <% end %>
-            <%= link_to 'https://www.facebook.com' do %>
-              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <%= link_to 'https://www.facebook.com/rosy.arreola.52' do %>
+              <span class="fab fa-facebook-square fa-2x social-button"></span>
             <% end %>
           </div>
         </div>

@@ -16,7 +16,7 @@
           <div class="card">
             <div class="card_image"> <img src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" /> </div>
             <div class="card_title title-white">
-              <h5 class="card-title title"><%= section.title %></h5>
+              <h5 class="card-title title"><%= link_to section.title, section_path(section), class: "title-white" %></h5>
             </div>
           </div>
         <% end %>
@@ -28,15 +28,21 @@
 <br />
 
 <!-- SUGGESTED WEBSITES (3) -->
-<h1>Our Suggestions for Beginners</h1>
+<h1 class="subtitle">Our Suggestions for Beginners</h1>
 <hr />
   
   <div class="container">
     <div class="row justify-content-start">
       <div class="card-flip-container">
         <div class="card-flip">
-          <div class="front-flip"><p>Front</p></div>
-          <div class="back-flip"><p>Back</p></div>
+          <div class="front-flip">
+            <img src="https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg" alt="" style="height: 100%; width: 100%">
+          </div>
+          <div class="back-flip">
+            <h5>TITLE</h5>
+            <p>Description lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati</p>
+            <button>Check this out!</button>
+          </div>
         </div>
       </div>
       <div class="card-flip-container">
@@ -63,20 +69,18 @@
 
 <!-- FEATURED WEBSITE -->
 <div id="feature">
-  <h1>Or check out this randomly selected site!</h1>
+  <h1 class="subtitle">Or check out this randomly selected site!</h1>
   <hr />
     <div class="blog-card">
     <div class="meta">
       <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
       <ul class="details">
-        <li class="author"><a href="#">John Doe</a></li>
-        <li class="date">Aug. 24, 2015</li>
         <li class="tags">
           <ul>
-            <li><a href="#">Learn</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
+            <li><a href="#">tag1</a></li>
+            <li><a href="#">tag2</a></li>
+            <li><a href="#">tag3</a></li>
+            <li><a href="#">tag4</a></li>
           </ul>
         </li>
       </ul>
@@ -96,15 +100,15 @@
 
 <!-- ABOUT SECTION -->
 <div id="about">
-  <h1>About Us</h1>
+  <h1 class="subtitle">About Us</h1>
   <hr />
   <p class="bio">
-        Built with [more stress than] ❤️ in El Paso, Texas. © 2019 All Rights Reserved by Rosy Arreola.
+        Built with ❤️ [and stress. Mostly stress] in El Paso, Texas. © 2019 All Rights Reserved by Rosy Arreola.
         <br />
         <br />
-        Codels is an attempt at gathering and showcasing useful resources for beginner and veteran programmers, which stemmed from an excessive hoarding of bookmarks, and a need to categorize them to make them easier to find. 
+        <strong>Codels</strong> is an attempt at gathering and showcasing useful resources for beginner and veteran programmers, which stemmed from an excessive hoarding of bookmarks, and a need to categorize them to make them easier to find. 
         <br />
         <br />
-        Currently in its infancy, please give Baby Codels time to grow.
+        Currently in its infancy, please give <strong>Baby Codels</strong> time to grow.
   </p>
 </div>

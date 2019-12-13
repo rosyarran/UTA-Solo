@@ -32,7 +32,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                
                 <% @sections.each do |section| %>
-                  <%= link_to section.title, section_path(section), class: "dropdown-item" %>
+                  <%= link_to section.title, sections_path, class: "dropdown-item" %>
                 <% end %>
                 
                 <%= link_to 'All Categories', sections_path, {:style=>'color:#004d40;', :class => "nav-link"} %>
